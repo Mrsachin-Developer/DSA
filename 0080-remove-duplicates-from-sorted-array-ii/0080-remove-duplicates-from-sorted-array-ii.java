@@ -3,6 +3,7 @@ class Solution {
         int i=2;
         int j=2;
         int n=nums.length;
+          if (n <= 2) return n;
         for(j=2;j<n;j++){
 if(nums[j]!=nums[i-2]){
     nums[i]=nums[j];
