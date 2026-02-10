@@ -18,7 +18,7 @@ for(int i=1;i<n;i++){
 
 for(int i=n-2;i>=0;i--){
     if(ratings[i]>ratings[i+1]){
-        candies[i]= Math.max(candies[i],candies[i+1]+1);
+        candies[i]= Math.max(candies[i],candies[i+1]+1); // suppose the candies are same  1,1 and the rating of i is > i+1 so we need the i to be greater 
     }
 }
 
