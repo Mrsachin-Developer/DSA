@@ -8,11 +8,12 @@ class Solution {
             if (s.isEmpty()) 
                 return true;
             
-            if (s.charAt(left) == s.charAt(right)) {
-                left++;
-                right--;
-            } else {
+            if (s.charAt(left) != s.charAt(right)) {
+            
                 return false;
+            } else {
+                    left++;
+                right--;
             }
         }
         return true;
