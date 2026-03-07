@@ -1,15 +1,9 @@
-import java.util.HashSet;
-
 class Solution {
     public boolean isHappy(int n) {
 
         HashSet<Integer> set = new HashSet<>();
 
-        while(n != 1) {
-
-            if(set.contains(n)){
-                return false;
-            }
+        while(n != 1 && !set.contains(n)){
 
             set.add(n);
 
@@ -18,12 +12,12 @@ class Solution {
             while(n > 0){
                 int digit = n % 10;
                 sum += digit * digit;
-                n = n / 10;
+                n /= 10;
             }
 
             n = sum;
         }
 
-        return true;
+        return n == 1;
     }
 }
