@@ -3,7 +3,7 @@ class Solution {
 
         HashSet<Integer> set = new HashSet<>();
 
-        while(n != 1 && !set.contains(n)){
+        while(n != 1 && !set.contains(n)) {
 
             set.add(n);
 
@@ -12,7 +12,7 @@ class Solution {
             while(n > 0){
                 int digit = n % 10;
                 sum += digit * digit;
-                n /= 10;
+                n = n / 10;
             }
 
             n = sum;
