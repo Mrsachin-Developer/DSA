@@ -1,21 +1,48 @@
+// MY solution Sort by start 
+
+
+
+// class Solution {
+//     public int findMinArrowShots(int[][] points) {
+
+//         Arrays.sort(points, (a, b) -> Integer.compare(a[0], b[0]));
+
+//         int arrows = 1;
+//         int arrowpos = points[0][1];
+
+//         for (int i = 1; i < points.length; i++) {
+
+//             // overlap case
+//             if (points[i][0] <= arrowpos) {
+//                 arrowpos = Math.min(arrowpos, points[i][1]);
+//             } 
+//             // no overlap → need new arrow
+//             else {
+//                 arrows++;
+//                 arrowpos = points[i][1];
+//             }
+//         }
+
+//         return arrows;
+//     }
+// }
+
+///// Sort by End
+
+
 class Solution {
     public int findMinArrowShots(int[][] points) {
-
-        Arrays.sort(points, (a, b) -> Integer.compare(a[0], b[0]));
+        
+        Arrays.sort(points, (a, b) -> Integer.compare(a[1], b[1]));
 
         int arrows = 1;
-        int arrowpos = points[0][1];
+        int arrowPos = points[0][1];
 
-        for (int i = 1; i < points.length; i++) {
-
-            // overlap case
-            if (points[i][0] <= arrowpos) {
-                arrowpos = Math.min(arrowpos, points[i][1]);
-            } 
-            // no overlap → need new arrow
-            else {
+        for(int i = 1; i < points.length; i++) {
+            
+            if(points[i][0] > arrowPos) {
                 arrows++;
-                arrowpos = points[i][1];
+                arrowPos = points[i][1];
             }
         }
 
