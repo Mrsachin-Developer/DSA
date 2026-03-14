@@ -8,9 +8,9 @@ class Solution {
                 int a = s.pop();
 
                 if(token.equals("+")) s.push(a+b);
-                if(token.equals("-")) s.push(a-b);
-                if(token.equals("*")) s.push(a*b);
-                if(token.equals("/")) s.push(a/b);
+            else if(token.equals("-")) s.push(a - b);
+                else if(token.equals("*")) s.push(a * b);
+                else s.push(a / b);
                
             
             }else{
