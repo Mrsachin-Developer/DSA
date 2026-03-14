@@ -18,7 +18,7 @@ class MinStack {
 
 
 
-if(mainStack.peek().equals(minStack.peek())){
+if(mainStack.peek().equals(minStack.peek())){ // Stack<Integer> stores Integer objects, not primitive int.  SO you will use == it compare the memory reference but .equls compare the val,if you use == you will get an wrong answer
     minStack.pop();
 }
 mainStack.pop();
