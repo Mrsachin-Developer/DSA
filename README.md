@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Mrsachin-Developer/DSA/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/Mrsachin-Developer/DSA/tree/master/0013-roman-to-integer) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Mrsachin-Developer/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Mrsachin-Developer/DSA/tree/master/0189-rotate-array) |
@@ -185,5 +186,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Mrsachin-Developer/DSA/tree/master/0002-add-two-numbers) |
 | [0141-linked-list-cycle](https://github.com/Mrsachin-Developer/DSA/tree/master/0141-linked-list-cycle) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Mrsachin-Developer/DSA/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
