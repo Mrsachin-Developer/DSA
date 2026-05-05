@@ -12,6 +12,6 @@ class Solution {
             lastprice = prices[i];
 
         }
-        return totalProfit;
+return totalProfit;
     }
 }
