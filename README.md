@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0228-summary-ranges](https://github.com/Mrsachin-Developer/DSA/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/Mrsachin-Developer/DSA/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/Mrsachin-Developer/DSA/tree/master/0274-h-index) |
+| [0283-move-zeroes](https://github.com/Mrsachin-Developer/DSA/tree/master/0283-move-zeroes) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Mrsachin-Developer/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mrsachin-Developer/DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Mrsachin-Developer/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mrsachin-Developer/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Mrsachin-Developer/DSA/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Mrsachin-Developer/DSA/tree/master/0202-happy-number) |
+| [0283-move-zeroes](https://github.com/Mrsachin-Developer/DSA/tree/master/0283-move-zeroes) |
 | [0392-is-subsequence](https://github.com/Mrsachin-Developer/DSA/tree/master/0392-is-subsequence) |
 ## Sorting
 |  |
