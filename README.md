@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Mrsachin-Developer/DSA/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Mrsachin-Developer/DSA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Mrsachin-Developer/DSA/tree/master/0057-insert-interval) |
+| [0075-sort-colors](https://github.com/Mrsachin-Developer/DSA/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Mrsachin-Developer/DSA/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Mrsachin-Developer/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Mrsachin-Developer/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0042-trapping-rain-water](https://github.com/Mrsachin-Developer/DSA/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/Mrsachin-Developer/DSA/tree/master/0061-rotate-list) |
+| [0075-sort-colors](https://github.com/Mrsachin-Developer/DSA/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0088-merge-sorted-array](https://github.com/Mrsachin-Developer/DSA/tree/master/0088-merge-sorted-array) |
@@ -67,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Mrsachin-Developer/DSA/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/Mrsachin-Developer/DSA/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Mrsachin-Developer/DSA/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/Mrsachin-Developer/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Mrsachin-Developer/DSA/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/Mrsachin-Developer/DSA/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/Mrsachin-Developer/DSA/tree/master/0242-valid-anagram) |
