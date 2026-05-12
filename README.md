@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Mrsachin-Developer/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/Mrsachin-Developer/DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/Mrsachin-Developer/DSA/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/Mrsachin-Developer/DSA/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/Mrsachin-Developer/DSA/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/Mrsachin-Developer/DSA/tree/master/0136-single-number) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Mrsachin-Developer/DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/Mrsachin-Developer/DSA/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Mrsachin-Developer/DSA/tree/master/0200-number-of-islands) |
 ## Linked List
 |  |
@@ -257,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Mrsachin-Developer/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Mrsachin-Developer/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Mrsachin-Developer/DSA/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0130-surrounded-regions](https://github.com/Mrsachin-Developer/DSA/tree/master/0130-surrounded-regions) |
 | [0199-binary-tree-right-side-view](https://github.com/Mrsachin-Developer/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/Mrsachin-Developer/DSA/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Mrsachin-Developer/DSA/tree/master/0226-invert-binary-tree) |
@@ -273,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Mrsachin-Developer/DSA/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Mrsachin-Developer/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Mrsachin-Developer/DSA/tree/master/0112-path-sum) |
+| [0130-surrounded-regions](https://github.com/Mrsachin-Developer/DSA/tree/master/0130-surrounded-regions) |
 | [0199-binary-tree-right-side-view](https://github.com/Mrsachin-Developer/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/Mrsachin-Developer/DSA/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Mrsachin-Developer/DSA/tree/master/0226-invert-binary-tree) |
@@ -313,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/Mrsachin-Developer/DSA/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Mrsachin-Developer/DSA/tree/master/0200-number-of-islands) |
 ## Simulation
 |  |
