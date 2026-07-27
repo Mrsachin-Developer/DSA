@@ -8,6 +8,7 @@ class Solution {
                 high++;
             } else if (s.charAt(i) == ')') {
                 low--;
+                            low = Math.max(low, 0);
                 high--;
             } else {
                 low--;
