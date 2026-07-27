@@ -8,6 +8,10 @@ class Solution {
             }
             reach = i + nums[i];
             maxreach = Math.max(maxreach, reach);
+
+            if(maxreach>=nums.length-1){
+            return true;
+            }
         }
         return true;
     }
