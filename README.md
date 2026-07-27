@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mrsachin-Developer/DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/Mrsachin-Developer/DSA/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/Mrsachin-Developer/DSA/tree/master/0485-max-consecutive-ones) |
+| [0860-lemonade-change](https://github.com/Mrsachin-Developer/DSA/tree/master/0860-lemonade-change) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Mrsachin-Developer/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Mrsachin-Developer/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Two Pointers
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/Mrsachin-Developer/DSA/tree/master/0135-candy) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mrsachin-Developer/DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/Mrsachin-Developer/DSA/tree/master/0455-assign-cookies) |
+| [0860-lemonade-change](https://github.com/Mrsachin-Developer/DSA/tree/master/0860-lemonade-change) |
 ## Counting Sort
 |  |
 | ------- |
