@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Mrsachin-Developer/DSA/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/Mrsachin-Developer/DSA/tree/master/0013-roman-to-integer) |
+| [0070-climbing-stairs](https://github.com/Mrsachin-Developer/DSA/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Mrsachin-Developer/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Mrsachin-Developer/DSA/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Mrsachin-Developer/DSA/tree/master/0202-happy-number) |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Mrsachin-Developer/DSA/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Mrsachin-Developer/DSA/tree/master/0055-jump-game) |
+| [0070-climbing-stairs](https://github.com/Mrsachin-Developer/DSA/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Mrsachin-Developer/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Mrsachin-Developer/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -355,4 +357,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/Mrsachin-Developer/DSA/tree/master/0133-clone-graph) |
 | [0547-number-of-provinces](https://github.com/Mrsachin-Developer/DSA/tree/master/0547-number-of-provinces) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Mrsachin-Developer/DSA/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
