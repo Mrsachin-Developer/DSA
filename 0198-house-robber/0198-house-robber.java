@@ -1,27 +1,30 @@
 class Solution {
 
-    public int recurr( int[] dp, int[] a) {
-        dp[0] = a[0];
+    public int recurr(int[] dp, int[] a) {
+        int prev = a[0];
 
-        int negative = 0;
+        int prev2 = 0;
         for (int i = 1; i < a.length; i++) {
-            int pick = a[i];
+
+            int take = a[i];
             if (i > 1) {
-                pick += dp[i - 2];
+                take += prev2;
             }
-            int notpick = 0 + dp[i - 1];
-            dp[i] = Math.max(pick, notpick);
+            int nottake = 0 + prev;
+            int curri = Math.max(take, nottake);
+            prev2 = prev;
+            prev = curri;
         }
 
-        return dp[a.length-1];
+        return prev;
     }
 
     public int rob(int[] nums) {
         int n = nums.length;
 
         int[] dp = new int[n];
-    
-        int result = recurr( dp, nums);
+
+        int result = recurr(dp, nums);
         return result;
     }
 }
