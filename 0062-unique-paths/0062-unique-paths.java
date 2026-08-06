@@ -2,24 +2,35 @@ class Solution {
 
     public int solve(int i, int j, int[][] dp) {
 
-        if (i == 0 && j == 0) {
-            return 1;
+        dp[0][0] = 1;
+
+        for (int row = 0; row <= i; row++) {
+            int up = 0;
+            int left = 0;
+            for (int col = 0; col <= j; col++) {
+                if (row == 0 && col == 0) {
+                    dp[row][col] = 1;
+                    continue;
+                }
+
+                if (row > 0) {
+
+                    up = dp[row - 1][col];
+                }
+                if (col > 0) {
+
+                    left = dp[row][col - 1];
+                }
+                dp[row][col] = up + left;
+            }
         }
-        if (i < 0 || j < 0) {
-            return 0;
-        }
-        if (dp[i][j] != -1)
-            return dp[i][j];
-        int up = solve(i - 1, j, dp);
-        int left = solve(i, j - 1, dp);
-        return dp[i][j] = up + left;
+
+        return dp[i][j];
     }
 
     public int uniquePaths(int m, int n) {
         int[][] dp = new int[m][n];
-        for (int[] row : dp) {
-            Arrays.fill(row, -1);
-        }
+
         return solve(m - 1, n - 1, dp);
     }
 }
