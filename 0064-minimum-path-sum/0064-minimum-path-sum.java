@@ -1,33 +1,32 @@
 class Solution {
-    public int solve(int r, int c,int[][]dp, int[][] grid) {
+    public int solve(int r, int c, int[][] dp, int[][] grid) {
 
-        if (r == 0 && c == 0) {
-            return grid[0][0];
+        for (int i = 0; i <= r; i++) {
+            int up = (int) 1e9;
+            int left = (int) 1e9;
+            for (int j = 0; j <= c; j++) {
+                if (i == 0 && j == 0) {
+                    dp[i][j] = grid[0][0];
+                    continue;
+                }
+                if (i > 0) {
+                    up = grid[i][j] + dp[i - 1][j];
+
+                }
+                if (j > 0) {
+                    left = grid[i][j] + dp[i][j - 1];
+                }
+                dp[i][j] = Math.min(up, left);
+            }
         }
-        if (r < 0 || c < 0) {
-            return Integer.MAX_VALUE;
-        }
-        if (dp[r][c] != -1)
-            return dp[r][c];
-        int up = solve(r - 1, c,dp, grid);
-        if (up != Integer.MAX_VALUE)
-            up += grid[r][c];
-
-        int left = solve(r, c - 1,dp, grid);
-        if (left != Integer.MAX_VALUE)
-            left += grid[r][c];
-
-        return dp[r][c] = Math.min(up, left);
-
+        return dp[r][c];
     }
 
     public int minPathSum(int[][] grid) {
         int r = grid.length;
         int c = grid[0].length;
         int[][] dp = new int[r][c];
-        for (int[] row : dp) {
-            Arrays.fill(row, -1);
-        }
+
         return solve(r - 1, c - 1, dp, grid);
     }
 }
