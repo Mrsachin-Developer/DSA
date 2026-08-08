@@ -1,23 +1,33 @@
 class Solution {
 
     public boolean solve(int index, int target, int[] nums, int[][] dp) {
-        if (target == 0)
-            return true;
-        if (index == 0) {
-            return nums[0] == target;
+        dp[0][0] = 1;
+
+        for (int i = 0; i < nums.length; i++) {
+            dp[i][0] = 1;
+        }
+        if (nums[0] <= target) {
+            dp[0][nums[0]] = 1;
+        }
+        int n=nums.length;
+
+        for (int i = 1; i < n; i++) {
+
+            for (int t = 1; t <= target; t++) {
+
+                int nottake = dp[i - 1][t];
+
+                int take = 0;
+
+                if (t >= nums[i]) {
+                    take = dp[i - 1][t - nums[i]];
+                }
+
+                dp[i][t] = (take == 1 || nottake == 1) ? 1 : 0;
+            }
         }
 
-        if (dp[index][target] != -1)
-            return dp[index][target] == 1;
-        boolean nottake = solve(index - 1, target, nums, dp);
-        boolean take = false;
-
-        if (target >= nums[index]) {
-            take = solve(index - 1, target - nums[index], nums, dp);
-        }
-
-        dp[index][target] = (take) || (nottake) ? 1 : 0;
-        return take || nottake;
+        return dp[n - 1][target] == 1;
     }
 
     public boolean canPartition(int[] nums) {
@@ -33,9 +43,6 @@ class Solution {
         int target = tsum / 2;
         int[][] dp = new int[n][target + 1];
 
-        for (int[] rows : dp) {
-            Arrays.fill(rows, -1);
-        }
         return solve(n - 1, target, nums, dp);
     }
 }
