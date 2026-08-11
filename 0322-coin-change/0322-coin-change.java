@@ -1,33 +1,33 @@
 class Solution {
 
-    public int solve(int index, int[] coins, int target, int[][] dp) {
-        if (index == 0) {
-            if (target % coins[index] == 0)
-                return target / coins[index];
-            else {
-                return (int) 1e9;
-            }
-        }
-if (dp[index][target] != -1)
-    return dp[index][target];
-        int nottake = 0 + solve(index - 1, coins, target, dp);
-        int take = (int) 1e9;
-        if (coins[index] <= target) {
-            take = 1 + solve(index, coins, target - coins[index], dp);
-        }
-        return dp[index][target] = Math.min(nottake, take);
-    }
-
     public int coinChange(int[] coins, int amount) {
         int n = coins.length;
         int[][] dp = new int[n][amount + 1];
 
-        for (int[] rows : dp) {
-            Arrays.fill(rows, -1);
-        }
-        int ans = solve(n - 1, coins, amount, dp);
+        for (int t = 0; t <= amount; t++) {
 
-        if (ans >= 1000000000)
+            if (t % coins[0] == 0) {
+                dp[0][t] = t / coins[0];
+            } else {
+                dp[0][t] = (int) 1e9;
+            }
+        }
+
+        for (int i = 1; i < n; i++) {
+
+            for (int tar = 0; tar <= amount; tar++) {
+                int nottake = 0 + dp[i - 1][tar];
+                int take = (int) 1e9;
+                if (coins[i] <= tar) {
+                    int remain = tar - coins[i];
+                    take = 1 + dp[i][remain];
+                }
+                dp[i][tar] = Math.min(nottake, take);
+            }
+        }
+
+        int ans = dp[n - 1][amount];
+        if (ans >= (int) 1e9)
             return -1;
 
         return ans;
