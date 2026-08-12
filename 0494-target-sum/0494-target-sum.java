@@ -1,43 +1,54 @@
 class Solution {
 
-    public int solve(int index, int[] nums, int target) {
-        if (index == 0) {
-            if (target == 0 && nums[0] == 0)
-                return 2;
-            if (target == 0 || target == nums[0])
-                return 1;
-            return 0;
+    public int solve(int[] nums, int t) {
+
+        int n = nums.length;
+
+        int[][] dp = new int[n][t + 1];
+
+    
+        if (nums[0] == 0)
+            dp[0][0] = 2;
+        else
+            dp[0][0] = 1;
+
+        if (nums[0] != 0 && nums[0] <= t)
+            dp[0][nums[0]] = 1;
+
+        for (int i = 1; i < n; i++) {
+
+            for (int target = 0; target <= t; target++) {
+
+                int notpick = dp[i - 1][target];
+
+                int pick = 0;
+
+                if (nums[i] <= target) {
+                    pick = dp[i - 1][target - nums[i]];
+                }
+
+                dp[i][target] = pick + notpick;
+            }
         }
 
-     
-
-        int notpick = solve(index - 1,nums, target);
-        int pick = 0;
-        if (nums[index] <= target) {
-            pick = solve(index - 1,nums, target - nums[index]);
-        }
-        return pick + notpick;
+        return dp[n - 1][t];
     }
 
     public int findTargetSumWays(int[] nums, int target) {
 
         int n = nums.length;
+
         int sum = 0;
+
         for (int i = 0; i < n; i++) {
             sum += nums[i];
         }
 
-        int t = (int) 1e9;
         if ((sum - target) < 0 || (sum - target) % 2 != 0)
             return 0;
 
-         t = (sum - target) / 2;
+        int t = (sum - target) / 2;
 
-        int ans = solve(n - 1, nums, t);
-
-        if (ans >= (int) 1e9) {
-            return 0;
-        }
-        return ans;
+        return solve(nums, t);
     }
 }
