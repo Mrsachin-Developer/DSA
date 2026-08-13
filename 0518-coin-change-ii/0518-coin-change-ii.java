@@ -1,27 +1,28 @@
 class Solution {
-    public int solve(int index, int target, int[] coins,int[][] dp) {
-        if (index == 0) {
-            return (target % coins[index] == 0) ? 1 : 0;
-        }
-        if (dp[index][target] != -1) {
-            return dp[index][target];
-        }
-        int notpick = solve(index - 1, target, coins, dp);
-        int pick = 0;
+    public int solve(int target, int[] coins, int[][] dp) {
 
-        if (coins[index] <= target) {
-            pick = solve(index, target - coins[index], coins, dp);
+        for (int t = 0; t <= target; t++) {
+            dp[0][t] = (t % coins[0] == 0) ? 1 : 0;
+        }
+        for (int i = 1; i < coins.length; i++) {
+            for (int tar = 0; tar <= target; tar++) {
+                int notpick = dp[i - 1][tar];
+                int pick = 0;
+
+                if (coins[i] <= tar) {
+                    pick = dp[i][tar - coins[i]];
+                }
+                dp[i][tar] = pick + notpick;
+            }
         }
 
-        return dp[index][target] = pick + notpick;
+        return dp[coins.length - 1][target];
     }
 
     public int change(int amount, int[] coins) {
         int n = coins.length;
-        int[][] dp = new int[n][amount+1];
-        for (int[] rows : dp) {
-            Arrays.fill(rows, -1);
-        }
-        return solve(n - 1, amount, coins, dp);
+        int[][] dp = new int[n][amount + 1];
+
+        return solve(amount, coins, dp);
     }
 }
