@@ -29,6 +29,6 @@ class Solution {
 
        int deletion = m-lcs;
        int addition= n-lcs;
-       return deletion+addition;
+       return m+n-2*lcs;
     }
 }
