@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/Mrsachin-Developer/DSA/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Mrsachin-Developer/DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0518-coin-change-ii) |
+| [0583-delete-operation-for-two-strings](https://github.com/Mrsachin-Developer/DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/Mrsachin-Developer/DSA/tree/master/0678-valid-parenthesis-string) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Mrsachin-Developer/DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## Greedy
@@ -207,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/Mrsachin-Developer/DSA/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/Mrsachin-Developer/DSA/tree/master/0392-is-subsequence) |
 | [0516-longest-palindromic-subsequence](https://github.com/Mrsachin-Developer/DSA/tree/master/0516-longest-palindromic-subsequence) |
+| [0583-delete-operation-for-two-strings](https://github.com/Mrsachin-Developer/DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/Mrsachin-Developer/DSA/tree/master/0678-valid-parenthesis-string) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Mrsachin-Developer/DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## String Matching
@@ -424,4 +426,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Mrsachin-Developer/DSA/tree/master/0148-sort-list) |
+## Longest Common Subsequence
+|  |
+| ------- |
+| [0583-delete-operation-for-two-strings](https://github.com/Mrsachin-Developer/DSA/tree/master/0583-delete-operation-for-two-strings) |
 <!---LeetCode Topics End-->
