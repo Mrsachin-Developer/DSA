@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Mrsachin-Developer/DSA/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/Mrsachin-Developer/DSA/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Mrsachin-Developer/DSA/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Mrsachin-Developer/DSA/tree/master/0055-jump-game) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Mrsachin-Developer/DSA/tree/master/0011-container-with-most-water) |
+| [0044-wildcard-matching](https://github.com/Mrsachin-Developer/DSA/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Mrsachin-Developer/DSA/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -201,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/Mrsachin-Developer/DSA/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Mrsachin-Developer/DSA/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Mrsachin-Developer/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0044-wildcard-matching](https://github.com/Mrsachin-Developer/DSA/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/Mrsachin-Developer/DSA/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/Mrsachin-Developer/DSA/tree/master/0058-length-of-last-word) |
 | [0071-simplify-path](https://github.com/Mrsachin-Developer/DSA/tree/master/0071-simplify-path) |
@@ -290,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/Mrsachin-Developer/DSA/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/Mrsachin-Developer/DSA/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Mrsachin-Developer/DSA/tree/master/0025-reverse-nodes-in-k-group) |
+| [0044-wildcard-matching](https://github.com/Mrsachin-Developer/DSA/tree/master/0044-wildcard-matching) |
 | [0206-reverse-linked-list](https://github.com/Mrsachin-Developer/DSA/tree/master/0206-reverse-linked-list) |
 ## Tree
 |  |
