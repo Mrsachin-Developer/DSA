@@ -1,53 +1,41 @@
 class Solution {
 
-    public int solve(int[][] dp,
-                     int index,
-                     int buy,
-                     int n,
-                     int[] prices) {
-
-        if(index == n)
-            return 0;
-
-        if(dp[index][buy] != -1)
-            return dp[index][buy];
-
-        if(buy == 1){
-
-            int take =
-                -prices[index]
-                + solve(dp,index+1,0,n,prices);
-
-            int notTake =
-                solve(dp,index+1,1,n,prices);
-
-            return dp[index][buy]
-                = Math.max(take,notTake);
-        }
-
-        else{
-
-            int sell =
-                prices[index]
-                + solve(dp,index+1,1,n,prices);
-
-            int notSell =
-                solve(dp,index+1,0,n,prices);
-
-            return dp[index][buy]
-                = Math.max(sell,notSell);
-        }
-    }
-
     public int maxProfit(int[] prices) {
 
         int n = prices.length;
 
-        int[][] dp = new int[n][2];
+        int[] ahead = new int[2];
+        int[] cur = new int[2];
 
-        for(int[] row: dp)
-            Arrays.fill(row,-1);
+        ahead[0] = ahead[1] = 0;
 
-        return solve(dp,0,1,n,prices);
+        for (int ind = n - 1; ind >= 0; ind--) {
+
+            for (int buy = 0; buy <= 1; buy++) {
+
+                int profit;
+
+                if (buy == 1) {
+
+                    // Buy state
+                    profit = Math.max(
+                            -prices[ind] + ahead[0],
+                            0 + ahead[1]);
+
+                } else {
+
+                    // Sell state
+                    profit = Math.max(
+                            prices[ind] + ahead[1],
+                            0 + ahead[0]);
+                }
+
+                cur[buy] = profit;
+            }
+
+            ahead = cur.clone();
+        }
+
+        return ahead[1];
     }
 }
