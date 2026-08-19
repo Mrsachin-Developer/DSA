@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/Mrsachin-Developer/DSA/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Mrsachin-Developer/DSA/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0518-coin-change-ii) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Mrsachin-Developer/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0860-lemonade-change](https://github.com/Mrsachin-Developer/DSA/tree/master/0860-lemonade-change) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Mrsachin-Developer/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Mrsachin-Developer/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0518-coin-change-ii) |
 | [0583-delete-operation-for-two-strings](https://github.com/Mrsachin-Developer/DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/Mrsachin-Developer/DSA/tree/master/0678-valid-parenthesis-string) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Mrsachin-Developer/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1092-shortest-common-supersequence](https://github.com/Mrsachin-Developer/DSA/tree/master/1092-shortest-common-supersequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Mrsachin-Developer/DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## Greedy
@@ -191,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mrsachin-Developer/DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/Mrsachin-Developer/DSA/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/Mrsachin-Developer/DSA/tree/master/0678-valid-parenthesis-string) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Mrsachin-Developer/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0860-lemonade-change](https://github.com/Mrsachin-Developer/DSA/tree/master/0860-lemonade-change) |
 ## Counting Sort
 |  |
