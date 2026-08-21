@@ -35,7 +35,6 @@ class Solution {
 
         Map<TreeNode, Boolean> visited = new HashMap<>();
         Queue<TreeNode> q = new LinkedList<>();
-
         q.offer(target);
         visited.put(target, true);
 
