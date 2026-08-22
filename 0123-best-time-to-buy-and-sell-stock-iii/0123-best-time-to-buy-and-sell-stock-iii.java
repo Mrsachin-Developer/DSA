@@ -14,7 +14,6 @@ class Solution {
 
                         int take = -prices[i]
                                 + after[0][cap];
-
                         int notTake = after[1][cap];
 
                         curr[buy][cap] = Math.max(take, notTake);
