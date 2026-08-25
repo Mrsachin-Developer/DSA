@@ -20,7 +20,6 @@ class Solution {
                 end = nextEnd;
             }
 
-
         }
             result.add(new int[] { start, end });
         return result.toArray(new int[result.size()][]);
