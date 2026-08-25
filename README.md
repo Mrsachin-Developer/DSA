@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/Mrsachin-Developer/DSA/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/Mrsachin-Developer/DSA/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/Mrsachin-Developer/DSA/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/Mrsachin-Developer/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Mrsachin-Developer/DSA/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/Mrsachin-Developer/DSA/tree/master/0322-coin-change) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Mrsachin-Developer/DSA/tree/master/0380-insert-delete-getrandom-o1) |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Mrsachin-Developer/DSA/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Mrsachin-Developer/DSA/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/Mrsachin-Developer/DSA/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/Mrsachin-Developer/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0392-is-subsequence](https://github.com/Mrsachin-Developer/DSA/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/Mrsachin-Developer/DSA/tree/master/0455-assign-cookies) |
 | [0876-middle-of-the-linked-list](https://github.com/Mrsachin-Developer/DSA/tree/master/0876-middle-of-the-linked-list) |
@@ -275,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mrsachin-Developer/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Mrsachin-Developer/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/Mrsachin-Developer/DSA/tree/master/0222-count-complete-tree-nodes) |
+| [0287-find-the-duplicate-number](https://github.com/Mrsachin-Developer/DSA/tree/master/0287-find-the-duplicate-number) |
 ## Sliding Window
 |  |
 | ------- |
@@ -409,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/Mrsachin-Developer/DSA/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/Mrsachin-Developer/DSA/tree/master/0222-count-complete-tree-nodes) |
+| [0287-find-the-duplicate-number](https://github.com/Mrsachin-Developer/DSA/tree/master/0287-find-the-duplicate-number) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -487,4 +491,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Mrsachin-Developer/DSA/tree/master/0075-sort-colors) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/Mrsachin-Developer/DSA/tree/master/0287-find-the-duplicate-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/Mrsachin-Developer/DSA/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
