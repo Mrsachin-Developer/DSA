@@ -31,36 +31,32 @@ class Solution {
         return prev;
     }
 
-    public ListNode reverseKGroup(ListNode head, int k) {
+   public ListNode reverseKGroup(ListNode head, int k) {
+
         ListNode temp = head;
-        ListNode previous = null;
+        ListNode nextNode = null;
+        ListNode prev = null;
 
         while (temp != null) {
             ListNode kthNode = getKthNode(temp, k);
+
             if (kthNode == null) {
-                break; // Not enough nodes to reverse
+                if (prev != null) {
+                    prev.next = temp;
+                }
+                break;
             }
-
-            ListNode nextNode = kthNode.next;
+            nextNode = kthNode.next;
             kthNode.next = null;
-
-            // Reverse current group
-            ListNode newHead = reverse(temp);
-
-            if (previous == null) {
-                head = newHead; // First group becomes new head
+            reverse(temp);
+            if (temp == head) {
+                head = kthNode;
             } else {
-                previous.next = newHead;
+                prev.next = kthNode;
             }
-
-            // Connect the last node of reversed group to nextNode
-            temp.next = nextNode;
-
-            // Move pointers for next iteration
-            previous = temp;
+            prev = temp;
             temp = nextNode;
         }
-
         return head;
     }
 }
