@@ -44,22 +44,24 @@ class Solution {
         }
     }
 
-    public Node getDeepCopyList(Node head){
-        Node temp=head;
-        Node dummy= new Node(-1);
-        Node res=dummy;
+    public Node getDeepCopyList(Node head) {
+        Node temp = head;
+        Node dummy = new Node(-1);
+        Node res = dummy;
 
-        while(temp!=null){
-            res.next=temp.next;
-            res=res.next;
+        while (temp != null) {
+            res.next = temp.next;
+            res = res.next;
 
-            temp.next=temp.next.next;
-            temp=temp.next;
+            temp.next = temp.next.next;
+            temp = temp.next;
         }
         return dummy.next;
     }
 
     public Node copyRandomList(Node head) {
+        if (head == null)
+            return null;
         insertCopyInBetween(head);
         connectRandomPointers(head);
         return getDeepCopyList(head);
