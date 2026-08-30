@@ -14,33 +14,54 @@ class Node {
 */
 
 class Solution {
-    public Node copyRandomList(Node head) {
 
-        if (head == null)
-            return null;
-
-        HashMap<Node, Node> map = new HashMap<>();
-
+    public void insertCopyInBetween(Node head) {
         Node temp = head;
 
-      
         while (temp != null) {
-            map.put(temp, new Node(temp.val));
-            temp = temp.next;
+            Node copyNode = new Node(temp.val);
+
+            copyNode.next = temp.next;
+            temp.next = copyNode;
+            temp = temp.next.next;
         }
 
-        temp = head;
+    }
+
+    public void connectRandomPointers(Node head) {
+        Node temp = head;
 
         while (temp != null) {
+            Node copyNode = temp.next;
+            if (temp.random != null) {
 
-            Node copyNode = map.get(temp);
+                copyNode.random = temp.random.next;
+            } else {
+                copyNode.random = null;
+            }
 
-            copyNode.next = map.get(temp.next);
-            copyNode.random = map.get(temp.random);
-
-            temp = temp.next;
+            temp = temp.next.next;
         }
+    }
 
-        return map.get(head);
+    public Node getDeepCopyList(Node head){
+        Node temp=head;
+        Node dummy= new Node(-1);
+        Node res=dummy;
+
+        while(temp!=null){
+            res.next=temp.next;
+            res=res.next;
+
+            temp.next=temp.next.next;
+            temp=temp.next;
+        }
+        return dummy.next;
+    }
+
+    public Node copyRandomList(Node head) {
+        insertCopyInBetween(head);
+        connectRandomPointers(head);
+        return getDeepCopyList(head);
     }
 }
