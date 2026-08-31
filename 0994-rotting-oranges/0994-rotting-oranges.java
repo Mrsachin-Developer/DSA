@@ -17,10 +17,14 @@ class Solution {
 
         int n = grid.length;
         int m = grid[0].length;
-        int[][] vis = new int[n][m];
-        int cntFresh = 0;
-        Queue<Pair> q = new LinkedList<>();
 
+        Queue<Pair> q = new LinkedList<>();
+        int[][] vis = new int[n][m];
+
+        int cntFresh = 0;
+
+        // Add all rotten oranges to queue
+        // Count fresh oranges
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
 
@@ -37,33 +41,44 @@ class Solution {
             }
         }
 
-        int[] drow = { -1, 0, 1, 0 };
-        int[] dcol = { 0, 1, 0, -1 };
         int tm = 0;
-               int cnt=0;
+        int cnt = 0;
+
+        int[] drow = {-1, 0, 1, 0};
+        int[] dcol = {0, 1, 0, -1};
+
         while (!q.isEmpty()) {
+
             Pair curr = q.poll();
+
             int r = curr.row;
             int c = curr.col;
             int t = curr.tm;
-     
+
             tm = Math.max(tm, t);
+
             for (int i = 0; i < 4; i++) {
+
                 int nrow = r + drow[i];
                 int ncol = c + dcol[i];
 
-                if (nrow >= 0 && nrow < n && ncol >= 0 && ncol < m && vis[nrow][ncol] != 2 && grid[nrow][ncol] == 1) {
-                    vis[nrow][ncol] = 2;
+                if (nrow >= 0 && nrow < n &&
+                    ncol >= 0 && ncol < m &&
+                    vis[nrow][ncol] != 2 &&
+                    grid[nrow][ncol] == 1) {
+
                     q.offer(new Pair(nrow, ncol, t + 1));
-                    cnt++;
+
+                    vis[nrow][ncol] = 2; // mark rotten
+                    cnt++;               // fresh orange rotted
                 }
             }
-
         }
 
-        if(cnt!=cntFresh){
+        if (cnt != cntFresh) {
             return -1;
         }
+
         return tm;
     }
 }
