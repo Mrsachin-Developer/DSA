@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/Mrsachin-Developer/DSA/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Mrsachin-Developer/DSA/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/Mrsachin-Developer/DSA/tree/master/0542-01-matrix) |
 | [0643-maximum-average-subarray-i](https://github.com/Mrsachin-Developer/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Mrsachin-Developer/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/Mrsachin-Developer/DSA/tree/master/0733-flood-fill) |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/Mrsachin-Developer/DSA/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Mrsachin-Developer/DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/Mrsachin-Developer/DSA/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/Mrsachin-Developer/DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/Mrsachin-Developer/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Mrsachin-Developer/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -410,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/Mrsachin-Developer/DSA/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/Mrsachin-Developer/DSA/tree/master/0322-coin-change) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Mrsachin-Developer/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0542-01-matrix](https://github.com/Mrsachin-Developer/DSA/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Mrsachin-Developer/DSA/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Mrsachin-Developer/DSA/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Mrsachin-Developer/DSA/tree/master/0662-maximum-width-of-binary-tree) |
@@ -462,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/Mrsachin-Developer/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0130-surrounded-regions](https://github.com/Mrsachin-Developer/DSA/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Mrsachin-Developer/DSA/tree/master/0200-number-of-islands) |
+| [0542-01-matrix](https://github.com/Mrsachin-Developer/DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Mrsachin-Developer/DSA/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/Mrsachin-Developer/DSA/tree/master/0994-rotting-oranges) |
 ## Simulation
