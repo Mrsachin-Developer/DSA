@@ -3,8 +3,8 @@ class Solution {
     public void dfs(int row, int col, int[][] visited, char[][] board) {
         int n = board.length;
         int m = board[0].length;
-   int[] drow = {-1, 0, 1, 0};
-int[] dcol = {0, 1, 0, -1};
+        int[] drow = { -1, 0, 1, 0 };
+        int[] dcol = { 0, 1, 0, -1 };
 
         visited[row][col] = 1;
 
@@ -40,7 +40,7 @@ int[] dcol = {0, 1, 0, -1};
 
         for (int i = 0; i < n; i++) {
             //  1st col
-          if (board[i][0] == 'O' && visited[i][0] == 0) {
+            if (board[i][0] == 'O' && visited[i][0] == 0) {
                 dfs(i, 0, visited, board);
 
             }
