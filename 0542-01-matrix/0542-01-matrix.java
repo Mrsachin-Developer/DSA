@@ -1,12 +1,12 @@
-class Node{
+class Node {
     int first;
     int second;
     int third;
 
-    Node(int first,int second,int third){
-        this.first=first;
-        this.second=second;
-        this.third=third;
+    Node(int first, int second, int third) {
+        this.first = first;
+        this.second = second;
+        this.third = third;
     }
 }
 
