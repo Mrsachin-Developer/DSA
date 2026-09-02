@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Mrsachin-Developer/DSA/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/Mrsachin-Developer/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Mrsachin-Developer/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0127-word-ladder](https://github.com/Mrsachin-Developer/DSA/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/Mrsachin-Developer/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/Mrsachin-Developer/DSA/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/Mrsachin-Developer/DSA/tree/master/0138-copy-list-with-random-pointer) |
@@ -251,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0072-edit-distance](https://github.com/Mrsachin-Developer/DSA/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/Mrsachin-Developer/DSA/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/Mrsachin-Developer/DSA/tree/master/0125-valid-palindrome) |
+| [0127-word-ladder](https://github.com/Mrsachin-Developer/DSA/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/Mrsachin-Developer/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Mrsachin-Developer/DSA/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Mrsachin-Developer/DSA/tree/master/0242-valid-anagram) |
@@ -408,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Mrsachin-Developer/DSA/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Mrsachin-Developer/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Mrsachin-Developer/DSA/tree/master/0112-path-sum) |
+| [0127-word-ladder](https://github.com/Mrsachin-Developer/DSA/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/Mrsachin-Developer/DSA/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/Mrsachin-Developer/DSA/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/Mrsachin-Developer/DSA/tree/master/0199-binary-tree-right-side-view) |
@@ -561,4 +564,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/Mrsachin-Developer/DSA/tree/master/1581-customer-who-visited-but-did-not-make-any-transactions) |
 | [1683-invalid-tweets](https://github.com/Mrsachin-Developer/DSA/tree/master/1683-invalid-tweets) |
 | [1757-recyclable-and-low-fat-products](https://github.com/Mrsachin-Developer/DSA/tree/master/1757-recyclable-and-low-fat-products) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/Mrsachin-Developer/DSA/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
