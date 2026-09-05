@@ -12,7 +12,7 @@ class Solution {
 
             if (visited[adjNode] == 0) {
 
-                if (dfsCheck(adjNode, graph, visited, pathVisited)) {
+                if (dfsCheck(adjNode, graph, visited, pathVisited)) { 
                     return true;
                 }
 
