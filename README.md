@@ -607,4 +607,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0802-find-eventual-safe-states](https://github.com/Mrsachin-Developer/DSA/tree/master/0802-find-eventual-safe-states) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0678-valid-parenthesis-string](https://github.com/Mrsachin-Developer/DSA/tree/master/0678-valid-parenthesis-string) |
 <!---LeetCode Topics End-->
