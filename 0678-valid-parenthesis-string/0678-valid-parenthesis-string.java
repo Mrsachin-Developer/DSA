@@ -1,28 +1,32 @@
 class Solution {
     public boolean checkValidString(String s) {
+
         int low = 0;
         int high = 0;
+
         for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == '(') {
+
+            char ch = s.charAt(i);
+
+            if (ch == '(') {
                 low++;
                 high++;
-            } else if (s.charAt(i) == ')') {
+            }
+            else if (ch == ')') {
                 low--;
-                            low = Math.max(low, 0);
                 high--;
-            } else {
+            }
+            else { // '*'
                 low--;
-                low = Math.max(low, 0);
                 high++;
             }
 
-            if (high < 0) {
+            if (high < 0)
                 return false;
 
-            }
-            low=Math.max(low,0);
+            low = Math.max(low, 0);
         }
-        return low==0;
 
+        return low == 0;
     }
 }
