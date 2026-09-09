@@ -7,7 +7,6 @@ class Solution {
         for (int i = 0; i < V; i++) {
             reverse.add(new ArrayList<>());
         }
-
         int[] indegree = new int[V];
         for (int i = 0; i < V; i++) {
 
