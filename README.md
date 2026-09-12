@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Mrsachin-Developer/DSA/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/Mrsachin-Developer/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0213-house-robber-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0213-house-robber-ii) |
+| [0217-contains-duplicate](https://github.com/Mrsachin-Developer/DSA/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/Mrsachin-Developer/DSA/tree/master/0228-summary-ranges) |
 | [0229-majority-element-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0229-majority-element-ii) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Mrsachin-Developer/DSA/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/Mrsachin-Developer/DSA/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Mrsachin-Developer/DSA/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/Mrsachin-Developer/DSA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Mrsachin-Developer/DSA/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/Mrsachin-Developer/DSA/tree/master/0274-h-index) |
@@ -147,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Mrsachin-Developer/DSA/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/Mrsachin-Developer/DSA/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/Mrsachin-Developer/DSA/tree/master/0205-isomorphic-strings) |
+| [0217-contains-duplicate](https://github.com/Mrsachin-Developer/DSA/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Mrsachin-Developer/DSA/tree/master/0242-valid-anagram) |
