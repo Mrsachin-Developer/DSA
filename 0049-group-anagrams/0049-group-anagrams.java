@@ -1,25 +1,19 @@
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> result = new ArrayList<>();
 
         HashMap<String, List<String>> map = new HashMap<>();
+        for (String word : strs) {
 
-        for (int i = 0; i < strs.length; i++) {
-            String word = strs[i];
-            char[] arr = word.toCharArray();
-            Arrays.sort(arr);
-            String signature = new String(arr);
+            char[] chars = word.toCharArray();
+            Arrays.sort(chars);
+            String key = new String(chars);
 
-            if (!map.containsKey(signature)) {
-                map.put(signature, new ArrayList<>());
+            if (!map.containsKey(key)) {
+                map.put(key, new ArrayList<>());
             }
-            map.get(signature).add(word);
+            map.get(key).add(word);
 
         }
-
-        for (List<String> group : map.values()) {
-            result.add(group);
-        }
-        return result;
+        return new ArrayList<>(map.values());
     }
 }
