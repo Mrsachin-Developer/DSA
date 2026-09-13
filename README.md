@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Mrsachin-Developer/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Mrsachin-Developer/DSA/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/Mrsachin-Developer/DSA/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/Mrsachin-Developer/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Mrsachin-Developer/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0416-partition-equal-subset-sum](https://github.com/Mrsachin-Developer/DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mrsachin-Developer/DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Mrsachin-Developer/DSA/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/Mrsachin-Developer/DSA/tree/master/0274-h-index) |
+| [0347-top-k-frequent-elements](https://github.com/Mrsachin-Developer/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mrsachin-Developer/DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/Mrsachin-Developer/DSA/tree/master/0455-assign-cookies) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mrsachin-Developer/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Mrsachin-Developer/DSA/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/Mrsachin-Developer/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Mrsachin-Developer/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/Mrsachin-Developer/DSA/tree/master/0383-ransom-note) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Mrsachin-Developer/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -169,11 +172,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Mrsachin-Developer/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0148-sort-list](https://github.com/Mrsachin-Developer/DSA/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Mrsachin-Developer/DSA/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/Mrsachin-Developer/DSA/tree/master/0347-top-k-frequent-elements) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Mrsachin-Developer/DSA/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Mrsachin-Developer/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/Mrsachin-Developer/DSA/tree/master/0383-ransom-note) |
 ## Math
 |  |
@@ -634,4 +639,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3483-unique-3-digit-even-numbers](https://github.com/Mrsachin-Developer/DSA/tree/master/3483-unique-3-digit-even-numbers) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Mrsachin-Developer/DSA/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Mrsachin-Developer/DSA/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Mrsachin-Developer/DSA/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
