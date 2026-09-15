@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-middle-of-the-linked-list](https://github.com/Mrsachin-Developer/DSA/tree/master/0876-middle-of-the-linked-list) |
 | [0881-boats-to-save-people](https://github.com/Mrsachin-Developer/DSA/tree/master/0881-boats-to-save-people) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Mrsachin-Developer/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Mrsachin-Developer/DSA/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Sorting
 |  |
 | ------- |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Mrsachin-Developer/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1092-shortest-common-supersequence](https://github.com/Mrsachin-Developer/DSA/tree/master/1092-shortest-common-supersequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Mrsachin-Developer/DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Mrsachin-Developer/DSA/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Mrsachin-Developer/DSA/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 ## Greedy
 |  |
@@ -263,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Mrsachin-Developer/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0860-lemonade-change](https://github.com/Mrsachin-Developer/DSA/tree/master/0860-lemonade-change) |
 | [0881-boats-to-save-people](https://github.com/Mrsachin-Developer/DSA/tree/master/0881-boats-to-save-people) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Mrsachin-Developer/DSA/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Counting Sort
 |  |
 | ------- |
@@ -302,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1092-shortest-common-supersequence](https://github.com/Mrsachin-Developer/DSA/tree/master/1092-shortest-common-supersequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Mrsachin-Developer/DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Mrsachin-Developer/DSA/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Mrsachin-Developer/DSA/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## String Matching
 |  |
 | ------- |
