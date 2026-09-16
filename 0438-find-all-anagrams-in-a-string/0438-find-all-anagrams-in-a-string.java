@@ -19,15 +19,16 @@ class Solution {
             }
 
             if (r - left + 1 == k) {
-                boolean same=true;
+                boolean same = true;
                 for (int i = 0; i < 26; i++) {
                     if (freqMap[i] != windowFreq[i]) {
-                    same=false;
+                        same = false;
+                        break;
 
                     }
 
                 }
-                if(same){
+                if (same) {
                     ans.add(left);
                 }
             }
