@@ -626,6 +626,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/Mrsachin-Developer/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0202-happy-number](https://github.com/Mrsachin-Developer/DSA/tree/master/0202-happy-number) |
 | [0287-find-the-duplicate-number](https://github.com/Mrsachin-Developer/DSA/tree/master/0287-find-the-duplicate-number) |
