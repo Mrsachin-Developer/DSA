@@ -10,9 +10,9 @@ class Solution {
             if (nums[mid] == target) {
                 return mid;
             } else if (nums[low] <= nums[mid]) {
+
                 if (target >= nums[low] && target < nums[mid]) {
                     high = mid - 1;
-
                 } else {
                     low = mid + 1;
                 }
@@ -21,7 +21,6 @@ class Solution {
 
                 if (target >= nums[mid] && target <= nums[high]) {
                     low = mid + 1;
-
                 } else {
                     high = mid - 1;
                 }
