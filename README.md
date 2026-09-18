@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Mrsachin-Developer/DSA/tree/master/0455-assign-cookies) |
 | [0881-boats-to-save-people](https://github.com/Mrsachin-Developer/DSA/tree/master/0881-boats-to-save-people) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mrsachin-Developer/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Mrsachin-Developer/DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Mrsachin-Developer/DSA/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 ## Hash Table
 |  |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/Mrsachin-Developer/DSA/tree/master/0904-fruit-into-baskets) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mrsachin-Developer/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Mrsachin-Developer/DSA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Mrsachin-Developer/DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Mrsachin-Developer/DSA/tree/master/3483-unique-3-digit-even-numbers) |
 ## Divide and Conquer
 |  |
@@ -280,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Mrsachin-Developer/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0860-lemonade-change](https://github.com/Mrsachin-Developer/DSA/tree/master/0860-lemonade-change) |
 | [0881-boats-to-save-people](https://github.com/Mrsachin-Developer/DSA/tree/master/0881-boats-to-save-people) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Mrsachin-Developer/DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Mrsachin-Developer/DSA/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Counting Sort
 |  |
@@ -324,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1092-shortest-common-supersequence](https://github.com/Mrsachin-Developer/DSA/tree/master/1092-shortest-common-supersequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Mrsachin-Developer/DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Mrsachin-Developer/DSA/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Mrsachin-Developer/DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Mrsachin-Developer/DSA/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## String Matching
 |  |
