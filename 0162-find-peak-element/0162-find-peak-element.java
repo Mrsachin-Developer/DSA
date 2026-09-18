@@ -21,7 +21,7 @@ class Solution {
             if (nums[mid] > nums[mid - 1]) {
                 low = mid + 1;
             }
-            //case3:Peak is on the left
+            //case3:Peak is on the left as slop is decreasing that means the peak must be before that 
             else {
                 high = mid - 1;
             }
