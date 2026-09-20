@@ -9,8 +9,8 @@ class Solution {
                 st.push(ch);
             } else {
 
-
-     if(st.isEmpty()) return false;
+                if (st.isEmpty())
+                    return false;
                 char top = st.pop();
 
                 if (ch == ')' && top != '(')
