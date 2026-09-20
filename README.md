@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Mrsachin-Developer/DSA/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/Mrsachin-Developer/DSA/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Mrsachin-Developer/DSA/tree/master/0494-target-sum) |
+| [0496-next-greater-element-i](https://github.com/Mrsachin-Developer/DSA/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/0518-coin-change-ii) |
 | [0523-continuous-subarray-sum](https://github.com/Mrsachin-Developer/DSA/tree/master/0523-continuous-subarray-sum) |
 | [0542-01-matrix](https://github.com/Mrsachin-Developer/DSA/tree/master/0542-01-matrix) |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Mrsachin-Developer/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Mrsachin-Developer/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Mrsachin-Developer/DSA/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0496-next-greater-element-i](https://github.com/Mrsachin-Developer/DSA/tree/master/0496-next-greater-element-i) |
 | [0523-continuous-subarray-sum](https://github.com/Mrsachin-Developer/DSA/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Mrsachin-Developer/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Mrsachin-Developer/DSA/tree/master/0567-permutation-in-string) |
@@ -352,11 +354,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/Mrsachin-Developer/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Mrsachin-Developer/DSA/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/Mrsachin-Developer/DSA/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/Mrsachin-Developer/DSA/tree/master/0496-next-greater-element-i) |
 | [0678-valid-parenthesis-string](https://github.com/Mrsachin-Developer/DSA/tree/master/0678-valid-parenthesis-string) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Mrsachin-Developer/DSA/tree/master/0042-trapping-rain-water) |
+| [0496-next-greater-element-i](https://github.com/Mrsachin-Developer/DSA/tree/master/0496-next-greater-element-i) |
 ## Design
 |  |
 | ------- |
