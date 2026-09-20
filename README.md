@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/Mrsachin-Developer/DSA/tree/master/0704-binary-search) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Mrsachin-Developer/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/Mrsachin-Developer/DSA/tree/master/0733-flood-fill) |
+| [0739-daily-temperatures](https://github.com/Mrsachin-Developer/DSA/tree/master/0739-daily-temperatures) |
 | [0835-image-overlap](https://github.com/Mrsachin-Developer/DSA/tree/master/0835-image-overlap) |
 | [0860-lemonade-change](https://github.com/Mrsachin-Developer/DSA/tree/master/0860-lemonade-change) |
 | [0875-koko-eating-bananas](https://github.com/Mrsachin-Developer/DSA/tree/master/0875-koko-eating-bananas) |
@@ -356,11 +357,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Mrsachin-Developer/DSA/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/Mrsachin-Developer/DSA/tree/master/0496-next-greater-element-i) |
 | [0678-valid-parenthesis-string](https://github.com/Mrsachin-Developer/DSA/tree/master/0678-valid-parenthesis-string) |
+| [0739-daily-temperatures](https://github.com/Mrsachin-Developer/DSA/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Mrsachin-Developer/DSA/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Mrsachin-Developer/DSA/tree/master/0496-next-greater-element-i) |
+| [0739-daily-temperatures](https://github.com/Mrsachin-Developer/DSA/tree/master/0739-daily-temperatures) |
 ## Design
 |  |
 | ------- |
