@@ -9,7 +9,6 @@ class Solution {
             while (!st.isEmpty() && currentTemp >= temperatures[st.peek()]) {
                 st.pop();
             }
-
             if (st.isEmpty()) {
                 ans[i] = 0;
             } else {
