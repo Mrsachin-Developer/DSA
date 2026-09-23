@@ -1,46 +1,32 @@
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
+        int freq[] = new int[26];
+        int [] windowfreq = new int[26];
 
-        int k = s1.length();
+        for (int i = 0; i < s1.length(); i++) {
+            char ch = s1.charAt(i);
 
-        if (k > s2.length()) {
-            return false;
+            freq[ch - 'a']++;
         }
-
-        int[] freqMap = new int[26];
-        int[] windowFreq = new int[26];
-
-        for (int i = 0; i < k; i++) {
-            freqMap[s1.charAt(i) - 'a']++;
-        }
-
         int left = 0;
 
         for (int right = 0; right < s2.length(); right++) {
 
-            windowFreq[s2.charAt(right) - 'a']++;
+            char ch = s2.charAt(right);
 
-       
-            if (right - left + 1 > k) {
-                windowFreq[s2.charAt(left) - 'a']--;
+            windowfreq[ch - 'a']++;
+
+            while (right - left + 1 > s1.length()) {
+                char leftch = s2.charAt(left);
+
+                windowfreq[leftch - 'a']--;
                 left++;
             }
 
-            if (right - left + 1 == k) {
-
-                boolean same = true;
-
-                for (int i = 0; i < 26; i++) {
-                    if (freqMap[i] != windowFreq[i]) {
-                        same = false;
-                        break;
-                    }
-                }
-
-                if (same) {
-                    return true;
-                }
+            if (Arrays.equals(freq, windowfreq)) {
+                return true;
             }
+
         }
 
         return false;
