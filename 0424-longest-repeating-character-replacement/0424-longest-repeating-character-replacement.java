@@ -20,7 +20,6 @@ class Solution {
                 freq[s.charAt(left) - 'A']--;
                 left++;
             }
-
             ans = Math.max(ans, right - left + 1);
         }
 
