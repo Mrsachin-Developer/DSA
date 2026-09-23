@@ -1,34 +1,41 @@
-
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
-        List<Integer> list = new ArrayList<>();
+
+        List<Integer> ans = new ArrayList<>();
         Deque<Integer> dq = new ArrayDeque<>();
-        int n = nums.length;
 
-        for (int i = 0; i < n; i++) {
-            // Remove indices out of the window
-            if (!dq.isEmpty() && dq.peekFirst() <= i - k) {
-                dq.pollFirst();
-            }
+        int left = 0;
 
-            // Remove smaller elements from the back
-            while (!dq.isEmpty() && nums[dq.peekLast()] < nums[i]) {
+        for (int right = 0; right < nums.length; right++) {
+
+            // Remove smaller elements from back
+            while (!dq.isEmpty() && nums[dq.peekLast()] < nums[right]) {
                 dq.pollLast();
             }
 
-            // Add current index
-            dq.offerLast(i);
+            dq.offerLast(right);
 
-            // Window formed
-            if (i >= k - 1) {
-                list.add(nums[dq.peekFirst()]);
+            // Window size exceeded
+            if (right - left + 1 > k) {
+
+                // Remove expired index
+                if (dq.peekFirst() == left) {
+                    dq.pollFirst();
+                }
+
+                left++;
+            }
+
+            // Window of size k formed
+            if (right - left + 1 == k) {
+                ans.add(nums[dq.peekFirst()]);
             }
         }
 
-        // Convert List<Integer> to int[]
-        int[] result = new int[list.size()];
-        for (int i = 0; i < list.size(); i++) {
-            result[i] = list.get(i);
+        int[] result = new int[ans.size()];
+
+        for (int i = 0; i < ans.size(); i++) {
+            result[i] = ans.get(i);
         }
 
         return result;
