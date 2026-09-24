@@ -1,47 +1,38 @@
 class Solution {
 
-    public int maxElement(int[] arr) {
-        int maxi = Integer.MIN_VALUE;
-
-        for (int i = 0; i < arr.length; i++) {
-            maxi = Math.max(maxi, arr[i]);
+    public int highesSpeed(int[] piles) {
+        int max = piles[0];
+        for (int i = 1; i < piles.length; i++) {
+            if (max < piles[i]) {
+                max = piles[i];
+            }
         }
-        return maxi;
+        return max;
     }
 
-    public int TotalHours(int[] arr, int hours) {
+    public boolean isPossible(int[] piles, int h, int speed) {
+        long hours = 0;
 
-        int n = arr.length;
-
-        int total = 0;
-
-        for (int i = 0; i < n; i++) {
-            total += Math.ceil((double) (arr[i]) / (double) (hours));
+        for (int pile : piles) {
+            hours += (pile + speed - 1) / speed;
         }
-        return total;
+
+        return hours <= h;
     }
 
     public int minEatingSpeed(int[] piles, int h) {
         int low = 1;
-
-        int high = maxElement(piles);
-
-        int ans = Integer.MAX_VALUE;
+        int high = highesSpeed(piles);
 
         while (low <= high) {
+            int mid = low + (high - low) / 2;
 
-            int mid = (low + high) / 2;
-
-            int totalHr = TotalHours(piles, mid);
-
-            if (totalHr <= h) {
-                ans = mid;
+            if (isPossible(piles, h, mid)) {
                 high = mid - 1;
             } else {
                 low = mid + 1;
             }
         }
-        // return low;
-        return ans;
+        return low;
     }
 }
