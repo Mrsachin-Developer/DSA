@@ -1,39 +1,61 @@
 class Solution {
+    public int minRange(int[] weights) {
+        int max = weights[0];
 
-    public static int findDays(int[] weights, int cap) {
-        int days = 1;
-        int load = 0;
+        for (int i = 1; i < weights.length; i++) {
+            if (max < weights[i]) {
+                max = weights[i];
+            }
+
+        }
+        return max;
+    }
+
+    public int maxRange(int[] weights) {
+        int n = weights.length;
+
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            sum += weights[i];
+        }
+
+        return sum;
+    }
+
+    public boolean isPossible(int capacity, int[] weights, int days) {
+
+        int currentLoad = 0;
+        int daysNeeded = 1;
+
         for (int i = 0; i < weights.length; i++) {
-            if (load + weights[i] > cap) {
-                days++;
-                load = weights[i];
+
+            if (currentLoad + weights[i] <= capacity) {
+
+                currentLoad += weights[i];
+
             } else {
-                load += weights[i];
+
+                daysNeeded++;
+                currentLoad = weights[i];
             }
         }
-        return days;
+
+        return daysNeeded <= days;
     }
 
     public int shipWithinDays(int[] weights, int days) {
-        int low = Integer.MIN_VALUE;
-        int high = 0;
-
-        for (int i = 0; i < weights.length; i++) {
-            high += weights[i];
-            low = Math.max(low, weights[i]);
-        }
+        int low = minRange(weights);
+        int high = maxRange(weights);
 
         while (low <= high) {
-            int mid = (low + high) / 2;
-            int numberOfDays = findDays(weights, mid);
+            int mid = low + (high - low) / 2;
 
-            if (numberOfDays <= days) { 
+            if (isPossible(mid, weights, days) == true) {
                 high = mid - 1;
             } else {
                 low = mid + 1;
             }
         }
-
         return low;
     }
 }
