@@ -25,7 +25,6 @@ class Solution {
                     int first = st.get(size - 1);
                     int second = st.get(size - 2);
                     int sum = first + second;
-
                 
                     st.push(sum);
                 }
