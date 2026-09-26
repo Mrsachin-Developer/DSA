@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/Mrsachin-Developer/DSA/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/Mrsachin-Developer/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/Mrsachin-Developer/DSA/tree/master/0643-maximum-average-subarray-i) |
+| [0682-baseball-game](https://github.com/Mrsachin-Developer/DSA/tree/master/0682-baseball-game) |
 | [0704-binary-search](https://github.com/Mrsachin-Developer/DSA/tree/master/0704-binary-search) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Mrsachin-Developer/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/Mrsachin-Developer/DSA/tree/master/0733-flood-fill) |
@@ -391,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Mrsachin-Developer/DSA/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/Mrsachin-Developer/DSA/tree/master/0496-next-greater-element-i) |
 | [0678-valid-parenthesis-string](https://github.com/Mrsachin-Developer/DSA/tree/master/0678-valid-parenthesis-string) |
+| [0682-baseball-game](https://github.com/Mrsachin-Developer/DSA/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/Mrsachin-Developer/DSA/tree/master/0739-daily-temperatures) |
 | [1096-brace-expansion-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/1096-brace-expansion-ii) |
 ## Monotonic Stack
@@ -640,6 +642,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Mrsachin-Developer/DSA/tree/master/0054-spiral-matrix) |
+| [0682-baseball-game](https://github.com/Mrsachin-Developer/DSA/tree/master/0682-baseball-game) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Mrsachin-Developer/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 | [3498-reverse-degree-of-a-string](https://github.com/Mrsachin-Developer/DSA/tree/master/3498-reverse-degree-of-a-string) |
 ## Graph Theory
