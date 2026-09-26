@@ -1,7 +1,6 @@
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> st = new Stack<>();
-
         char[] arr = s.toCharArray();
 
         for (char ch : arr) {
