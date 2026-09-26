@@ -19,13 +19,14 @@ class Solution {
 
                 }
                 if (op.equals("+")) {
-                    int first = st.pop();
-                    int second = st.pop();
-
+                    // int first = st.pop();
+                    // int second = st.pop();
+                    int size = st.size();
+                    int first = st.get(size - 1);
+                    int second = st.get(size - 2);
                     int sum = first + second;
 
-                    st.push(second);
-                    st.push(first);
+                
                     st.push(sum);
                 }
             } else {
