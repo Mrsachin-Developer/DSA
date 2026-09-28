@@ -5,7 +5,6 @@ class Solution {
         int ans[] = new int[n];
         for (int i = n - 1; i >= 0; i--) {
             int currentTemp = temperatures[i];
-
             while (!st.isEmpty() && currentTemp >= temperatures[st.peek()]) {
                 st.pop();
             }
