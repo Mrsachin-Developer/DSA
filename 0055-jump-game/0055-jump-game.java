@@ -7,7 +7,7 @@ class Solution {
 
             if (i > maxReach)
                 return false;
-
+            // max index we can reach 
             maxReach = Math.max(maxReach, i + nums[i]);
             if (maxReach >= nums.length - 1)
                 return true;
