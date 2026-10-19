@@ -21,7 +21,6 @@ class Solution {
         }
         return dp[r][c];
     }
-
     public int minPathSum(int[][] grid) {
         int r = grid.length;
         int c = grid[0].length;
