@@ -12,7 +12,6 @@ class Solution {
                 dp[0][t] = (int) 1e9;
             }
         }
-
         for (int i = 1; i < n; i++) {
 
             for (int tar = 0; tar <= amount; tar++) {
