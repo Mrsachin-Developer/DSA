@@ -11,7 +11,6 @@ class Solution {
                 }
                 if (i > 0) {
                     up = grid[i][j] + dp[i - 1][j];
-
                 }
                 if (j > 0) {
                     left = grid[i][j] + dp[i][j - 1];
