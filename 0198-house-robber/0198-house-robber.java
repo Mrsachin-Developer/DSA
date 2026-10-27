@@ -1,6 +1,6 @@
 class Solution {
 
-    public int recurr(int[] dp, int[] a) {
+    public int recurr( int[] a) {
         int prev = a[0];
 
         int prev2 = 0;
@@ -22,9 +22,9 @@ class Solution {
     public int rob(int[] nums) {
         int n = nums.length;
 
-        int[] dp = new int[n];
 
-        int result = recurr(dp, nums);
+
+        int result = recurr( nums);
         return result;
     }
 }
