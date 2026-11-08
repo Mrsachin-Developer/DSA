@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Mrsachin-Developer/DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1020-number-of-enclaves](https://github.com/Mrsachin-Developer/DSA/tree/master/1020-number-of-enclaves) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Mrsachin-Developer/DSA/tree/master/1248-count-number-of-nice-subarrays) |
+| [1267-count-servers-that-communicate](https://github.com/Mrsachin-Developer/DSA/tree/master/1267-count-servers-that-communicate) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Mrsachin-Developer/DSA/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/Mrsachin-Developer/DSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Mrsachin-Developer/DSA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
@@ -251,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Mrsachin-Developer/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/Mrsachin-Developer/DSA/tree/master/0383-ransom-note) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Mrsachin-Developer/DSA/tree/master/0992-subarrays-with-k-different-integers) |
+| [1267-count-servers-that-communicate](https://github.com/Mrsachin-Developer/DSA/tree/master/1267-count-servers-that-communicate) |
 ## Math
 |  |
 | ------- |
@@ -509,6 +511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Mrsachin-Developer/DSA/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/Mrsachin-Developer/DSA/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/Mrsachin-Developer/DSA/tree/master/1020-number-of-enclaves) |
+| [1267-count-servers-that-communicate](https://github.com/Mrsachin-Developer/DSA/tree/master/1267-count-servers-that-communicate) |
 ## Linked List
 |  |
 | ------- |
@@ -598,6 +601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Mrsachin-Developer/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mrsachin-Developer/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/Mrsachin-Developer/DSA/tree/master/1020-number-of-enclaves) |
+| [1267-count-servers-that-communicate](https://github.com/Mrsachin-Developer/DSA/tree/master/1267-count-servers-that-communicate) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Mrsachin-Developer/DSA/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Breadth-First Search
 |  |
@@ -631,6 +635,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/Mrsachin-Developer/DSA/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/Mrsachin-Developer/DSA/tree/master/1020-number-of-enclaves) |
 | [1096-brace-expansion-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/1096-brace-expansion-ii) |
+| [1267-count-servers-that-communicate](https://github.com/Mrsachin-Developer/DSA/tree/master/1267-count-servers-that-communicate) |
 ## Binary Tree
 |  |
 | ------- |
@@ -685,6 +690,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0835-image-overlap](https://github.com/Mrsachin-Developer/DSA/tree/master/0835-image-overlap) |
 | [0994-rotting-oranges](https://github.com/Mrsachin-Developer/DSA/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/Mrsachin-Developer/DSA/tree/master/1020-number-of-enclaves) |
+| [1267-count-servers-that-communicate](https://github.com/Mrsachin-Developer/DSA/tree/master/1267-count-servers-that-communicate) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Mrsachin-Developer/DSA/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 ## Simulation
 |  |
