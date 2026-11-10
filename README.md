@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3524-find-x-value-of-array-i](https://github.com/Mrsachin-Developer/DSA/tree/master/3524-find-x-value-of-array-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/3525-find-x-value-of-array-ii) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Mrsachin-Developer/DSA/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
+| [3693-climbing-stairs-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/3693-climbing-stairs-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -321,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Mrsachin-Developer/DSA/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/Mrsachin-Developer/DSA/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3524-find-x-value-of-array-i](https://github.com/Mrsachin-Developer/DSA/tree/master/3524-find-x-value-of-array-i) |
+| [3693-climbing-stairs-ii](https://github.com/Mrsachin-Developer/DSA/tree/master/3693-climbing-stairs-ii) |
 ## Greedy
 |  |
 | ------- |
