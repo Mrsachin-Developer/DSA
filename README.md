@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1882-process-tasks-using-servers](https://github.com/Mrsachin-Developer/DSA/tree/master/1882-process-tasks-using-servers) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Mrsachin-Developer/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Mrsachin-Developer/DSA/tree/master/2300-successful-pairs-of-spells-and-potions) |
+| [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Mrsachin-Developer/DSA/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Mrsachin-Developer/DSA/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Mrsachin-Developer/DSA/tree/master/3483-unique-3-digit-even-numbers) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/Mrsachin-Developer/DSA/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
